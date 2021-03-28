@@ -1,0 +1,129 @@
+
+
+    .details{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .custom-jumbo-details{
+        margin-top: 0px;
+        height: 100%;
+        width: 100%;
+        background-image: url('../img/cover.jpg');
+        background-repeat: no-repeat;
+        background-position: center ;
+        background-size: cover;
+        color: #ffffff;
+        text-shadow: 2px 2px #4c4d4c;
+        backdrop-filter: blur(5px);
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .custom-jumbo-details h1{
+        background-color: #db675c;
+        padding: 20px;
+        margin: 5px;
+        font-size: 80px;
+        border-radius: 20px;
+    }
+    
+    .details-info{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(61, 14, 122);
+        color: cornsilk;
+        border-radius: 30px;
+        width: 70%;
+        height: 100%;
+        margin: 20px;
+        padding: 40px;
+    }
+    
+    .detail-card{
+        text-align: start;
+        width: 50%;
+    }
+    .gender-div{
+        width: 50%;
+        
+    }
+    .gender-based-image{
+        width: 100%;
+        height: auto;
+    }
+    
+    .description{
+        width: 50%;
+    }
+
+    .social{
+        font-size: 50px;
+    }
+
+    .social-fb{
+        color: rgb(69, 72, 158);
+        padding: 2px;
+    }
+    .social-twitter{
+        color: rgb(81, 191, 255);
+        padding: 2px;
+    }
+    .social-twitter:hover{
+        color: rgb(0, 99, 156);
+        padding: 2px;
+    }
+    .social-youtube{
+        color: rgb(255, 0, 0);
+        padding: 2px;
+    }
+    .social-youtube:hover{
+        color: rgb(156, 0, 0);
+        padding: 2px;
+    }
+
+
+@media only screen and (max-width: 500px) {
+    .league-logo{
+        width: 150px;
+    }
+
+    .custom-jumbo-details h1{
+        font-size: 20px;
+    }
+
+    .details-info{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 2px;
+    }
+    .detail-card{
+        width: 100%;
+        padding: 20px;
+    }
+    .detail-card h2{
+        font-size: 30px;
+        margin: 05px;
+    }
+    .gender-div{
+        width: 100%;
+    }
+    .gender-based-image{
+        width: 90%;
+        margin: 10px;
+    }
+
+    .description{
+        width: 90%;
+    }
+  }
